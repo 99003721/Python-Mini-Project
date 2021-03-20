@@ -12,3 +12,5 @@
 
 ## Low Level Design 
 
+![Class diagram python](https://user-images.githubusercontent.com/78872643/111868786-f0587100-89a1-11eb-9987-887b72329d61.PNG)
+
