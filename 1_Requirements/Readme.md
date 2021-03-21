@@ -21,9 +21,8 @@ In this python project we have to read multiple excel sheet data having 40 rows 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-* 
-Corporate sector,
-Professionals at industrial level
+* Corporate sector,
+Professionals at industrial level.
 * Evaluating data of Interns at Nalanda
 
 
