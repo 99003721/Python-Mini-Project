@@ -21,25 +21,30 @@ In this python project we have to read multiple excel sheet data having 40 rows 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-* School sector, 
-corporate sector,
+* 
+Corporate sector,
 Professionals at industrial level
+* Evaluating data of Interns at Nalanda
 
 
 ## What:
-* Reading multiple excel file data for analysing data 
+* Reading multiple excel file data for analysing data.
+* Creation of master sheet to display multiple dataset.
 
 ## When:
 
-* In situations that require quick access to certain student data from multiple data sheet in a master sheet
+* In situations that require quick access to certain student data from multiple data sheet in a master sheet.
+* At a time of data evaluation of students.
 
 ## Where:
 
 * Widely used in both educational and professinal Institutions or organisation where to keep student records.
+* Checking and summarize information of persons.
 
 ## How:
 
 * Our project is a simple tool that will help any user to fetch get the desire data and also increase efficiency at the time of most complex datashet .
+* On based on Ps Number or Name user can search the information , therefore it will result in prininting summarize data of that Id.
 
 # Detail requirements
 ## High Level Requirements:
@@ -48,8 +53,8 @@ Professionals at industrial level
 |HL001 | Creating Multiple excel sheet  | 5 different excel sheet containing  |Implemented |
 |HL002 | Combining all data   | Combining data from 5 sheet and store it in a variable  |Implemented |
 |HL003 | User input   | User will input details that to be fetch   |Implemented |
-|HL004 | Search that data if exists   | Searching data in all sheet   |In Progress|
-|HL005 | Display data   | Display the required data in master sheet   |In Progress|
+|HL004 | Search that data if exists   | Searching data in all sheet   |Implemented|
+|HL005 | Display data   | Display the required data in master sheet   |Implemented|
 
 
 ##  Low level Requirements:
@@ -57,9 +62,9 @@ Professionals at industrial level
 |--|--|--|--|
 |LL001 | Read excel |Reading multiple excel sheet |Implemented
 |LL002 | Searching data | Searching the data present or not |Implemented
-|LL003 | Validate input | Validation of user input |In Progress
-|LL004 | Store location | Storing location of desired student data |In Progress
-|LL005 | Fetching data | Fetching data and display in master sheet |In Progress
-|LL006 | Creation of master sheet | Create master if by default not present |In Progress
+|LL003 | Validate input | Validation of user input |Implemented
+|LL004 | Store location | Storing location of desired student data |Implemented
+|LL005 | Fetching data | Fetching data and display in master sheet |Implemented
+|LL006 | Creation of master sheet | Create master if by default not present |Implemented
 
 
