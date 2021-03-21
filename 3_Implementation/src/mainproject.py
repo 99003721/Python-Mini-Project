@@ -29,7 +29,7 @@ def print_header(lpath):
     mastersheet = loadmaster['Sheet1']
 
     max_row_master = mastersheet.max_row
-    max_row_master = max_row_master+2
+    max_row_master = max_row_master+4
     print(max_row_master)
     max_col_sheet1 = loadingsheet.max_column
     print(max_col_sheet1) 
