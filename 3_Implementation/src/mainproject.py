@@ -6,6 +6,7 @@ select = 0
 
 masterpath = "D:\\MasterSheet.xlsx"
 
+#----Function to check masterbook active sheet--------#
 def checkstatus():
     loadmaster = xl.load_workbook(masterpath)
     mastersheet = loadmaster['Sheet1']
@@ -16,6 +17,7 @@ def checkstatus():
 currrow = 0
 currcol = 0
 
+#----Function to Print header row--------#
 def print_header(lpath):
     loaded_workbook1 = xl.load_workbook(lpath)
     numsheet = loaded_workbook1.sheetnames
@@ -32,6 +34,7 @@ def print_header(lpath):
     loadmaster.save(masterpath)
     return currcol
 
+#----Function to search and print data in mastersheet--------#
 def searchandprint(path):
     lpath = path
     loaded_workbook1 = xl.load_workbook(path)
@@ -51,6 +54,7 @@ def searchandprint(path):
     mastersheet = loadmaster['Sheet1']
     a = 1
     # mastercol = 0
+#----Function to search data by PS Number--------#    
     for i in range(0, lensheet):
         activesheet = loaded_workbook1[numsheet[i]]
         # mastermaxcol = mastersheet.max_column
@@ -75,7 +79,8 @@ def searchandprint(path):
                         k = 4
                         for temp in range(4, maxcol+1):
                             mastersheet.cell(row= mastermaxrow, column = k).value = activesheet.cell(row= rows, column= temp).value
-                            k = k+1 
+                            k = k+1
+#----Function to search data by Name--------#                             
             elif select == 0: 
                 for col in range(1,3):
                     cellvalue1 = activesheet.cell(row= rows, column= col)
@@ -94,7 +99,7 @@ def searchandprint(path):
                             mastersheet.cell(row= mastermaxrow, column = k).value = activesheet.cell(row= rows, column= temp).value
                             k = k+1   
     loadmaster.save(str('MasterSheet.xlsx'))
-    
+#----Function to take user input choice for file path --------#    
 def userpathinput():
     path = input("Enter your Woorkbook Path : ")
     InputListPath.append(path)
@@ -105,6 +110,7 @@ def userpathinput():
             InputListPath.append(path)
         elif choice == "N" or choice == "n":
             break
+#----Function to take user input choice for Input Choice --------#            
 def Inputsearchkey():
     d1a = input (" Do you want to: A)\033[1m Search By PS Number :\033[0m B) \033[1mSearch By User Name :\033[0m [A/B]? :  ")
     if d1a == "A" or d1a == "a":
