@@ -92,7 +92,7 @@ def searchandprint(path):
                         for temp in range(4, maxcol+1):
                             mastersheet.cell(row= mastermaxrow, column = k).value = activesheet.cell(row= rows, column= temp).value
                             k = k+1
-    loadmaster.save("Master.xlsx")
+    loadmaster.save("MasterSheet.xlsx")
 # Function to take user input choice for file path
 def userpathinput():
     path = input("Enter your Woorkbook Path : ")
