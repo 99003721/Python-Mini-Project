@@ -24,3 +24,7 @@ Folder             | Description
 * STEP 3 : Do You Want To Add More Workbook :: Y/N: (# If yes enter multiple path if no go to step 4)
 * STEP 4 : Do you want to: A) Search By PS Number : B) Search By User Name : [A/B]? : (Enter Details)
 * STEP 5 : Open the Masterfile at (D:\\MasterSheet.xlsx) to get output data.
+
+#### Problem statement : Group - 1 miniproject extension
+Excel files should be placed in different directories and Master file should get the data from all excel files with respect to user input
+
