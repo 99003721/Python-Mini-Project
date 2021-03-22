@@ -15,4 +15,4 @@ Folder             | Description
 |1 | openpyxl |Reading and write excel sheet | pip install openpyxl
 |2 | os | Searching the File Path |pip install os_sys
 
-*Craete a Mastersheet in D Drive : D:\\MasterSheet.xlsx
+## Create a Mastersheet in D Drive as : D:\\MasterSheet.xlsx
