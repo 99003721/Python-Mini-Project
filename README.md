@@ -26,6 +26,17 @@ Folder             | Description
 #### Problem statement : Group - 1 miniproject extension
 Excel files should be placed in different directories and Master file should get the data from all excel files with respect to user input
 
+#### Multiple Workbook Path Present in **3_Implementation/DataSheet/** folder 
+![01_dir](https://user-images.githubusercontent.com/78872643/112095328-4c99db80-8bc2-11eb-9b79-1b254220fcbf.PNG)
+
+#### Execution of project at Terminal
+![terminal 02](https://user-images.githubusercontent.com/78872643/112095387-6affd700-8bc2-11eb-8a97-a40aff0b2eb0.PNG)
+
+#### Final Output in Mastersheet present at src folder to get output data
+![mastersheet 03](https://user-images.githubusercontent.com/78872643/112095494-9b477580-8bc2-11eb-9eb7-876181e62731.PNG)
+
+
+
 ## Challenges Faced and How Was It Overcome
 
 1. Implimenting the library
