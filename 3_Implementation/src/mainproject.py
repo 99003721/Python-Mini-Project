@@ -147,7 +147,7 @@ def Inputsearchkey():
 
 
 userpathinput()
-select = Inputsearchkey()
+Inputsearchkey()
 lenpathlist = len(InputListPath)
 checkstatus()
 for i in range(0, lenpathlist):
